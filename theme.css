@@ -1,0 +1,45 @@
+body{
+    background-image: url("BG.png");
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+h1{
+    font-family: 'Staatliches', cursive;
+    font-size: 128px;
+    padding-bottom: 0px;
+}
+
+h2{
+    font-family: 'Staatliches', cursive;
+    font-size: 45px;
+    border: 0px;
+    padding-top: 0px;
+    position: relative;
+}
+
+.transparentpage{
+    height: 100vh;
+    width: 100%;
+    display: table;
+    max-width: none;
+}
+
+.opaquepage{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    display: table;
+    max-width: none;
+}
