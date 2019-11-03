@@ -6,20 +6,51 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: lightgray;
+    background-image:url("bg2.png");
     display: block;
 }
 
 h1{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
     margin: 0px;
+    font-weight: 300;
+    padding: 10px;
+
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: 300;
     padding: 10px;
 
 }
 
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin: 0px;
+    font-weight: 300;
+    font-size: 64px;
+    padding: 10px;
+
+}
+
+article{
+    text-align: center;
+
+    background-color: white;
+    margin: auto;
+    margin-top: 32px;
+    display: block;
+    max-width: 1200px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
 header{
     background-color: white;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.3);
 
 }
 
@@ -41,7 +72,7 @@ nav{
 
 a{
     display: block;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     float: left;
     padding: 22px;
 }
