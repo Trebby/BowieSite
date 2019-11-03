@@ -1,5 +1,4 @@
 body{
-    background-image: url("BG.png");
     height: 100%;
     padding: 0px;
     margin: 0px;
@@ -7,39 +6,42 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: lightgray;
     display: block;
 }
 
 h1{
-    font-family: 'Staatliches', cursive;
-    font-size: 128px;
-    padding-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin: 0px;
+    padding: 10px;
+
 }
 
-h2{
-    font-family: 'Staatliches', cursive;
-    font-size: 45px;
-    border: 0px;
-    padding-top: 0px;
-    position: relative;
+header{
+    background-color: white;
+
 }
 
-.transparentpage{
+.fullpage{
     height: 100vh;
     width: 100%;
     display: table;
     max-width: none;
 }
 
-.opaquepage{
-    height: 100vh;
-    width: 100%;
-    background-color: black;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+nav{
+    float: right;
+    text-align: center;
+    color: black;
+    vertical-align: middle;
+    top: 50%;
+    margin: 0px;
+}
+
+a{
     display: block;
-    display: table;
-    max-width: none;
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    padding: 22px;
 }
