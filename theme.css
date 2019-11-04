@@ -64,22 +64,24 @@ header{
 }
 
 .albumtext{
-    font-size: 32px;
-    padding: 0px;
+    font-size: 45px;
     padding-left: 10px;
+    margin: 0px;
 }
 
 .albumtextbox i{
-    font-size: 32px;
-    padding: 0px;
+    font-size: 45px;
     color: gray;
     padding-left: 10px; 
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    position: absolute;
+    
 }
 
 .albumtextbox{
     float: left;
+    position: relative;
 }
 
 .album{
@@ -88,7 +90,7 @@ header{
     display: flow-root;
     margin: auto;
     margin-top: 32px;
-    width: 500px;
+    width: 800px;
     box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.3);
 
 }
