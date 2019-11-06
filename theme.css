@@ -57,6 +57,14 @@ header{
     box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.3);
 
 }
+footer{
+position:absolute;
+bottom:0;
+width:100%;
+height:32px;   /* Height of the footer */
+background: white;
+box-shadow: -2px -2px 2px 0 rgba(0, 0, 0, 0.3);
+}
 
 .albumart{
     
