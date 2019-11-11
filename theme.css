@@ -1,19 +1,26 @@
-/* CSS Overrides */
-
-body{
-    height: 100%;
+html, body{
     padding: 0px;
+    height: 100px;
     margin: 0px;
+    position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image:url("bg2.png");
-    display: block;
+
 }
+
+
 
 html {
     overflow-y: scroll; 
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1{
@@ -22,8 +29,8 @@ h1{
     margin: 0px;
     font-weight: 300;
     padding: 10px;
-}
 
+}
 p{
     font-family: 'Roboto', sans-serif;
     color: black;
@@ -38,18 +45,20 @@ h2{
     color: black;
     margin: 0px;
     font-weight: 300;
+    text-align: center;
     font-size: 64px;
     padding: 10px;
 
 }
 
 article{
-    text-align: center;
 
     background-color: white;
     margin: auto;
     margin-top: 32px;
+
     display: block;
+    height: auto;
     max-width: 1200px;
     box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.3);
 }
@@ -59,49 +68,19 @@ header{
     box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.3);
 
 }
+
 footer{
-position:absolute;
-bottom:0;
-width:100%;
-height:32px; 
-background: white;
-box-shadow: -2px -2px 2px 0 rgba(0, 0, 0, 0.3);
+    position: absolute;
+    margin-top: auto;
+    width: 100%;
+    /* negative value of footer height */
+    height: 100%;
+    background-color: red;
+
+   background-color: white;
 }
-
-nav{
-    float: right;
-    text-align: center;
-    color: black;
-    vertical-align: middle;
-    top: 50%;
-    margin: 0px;
-}
-
-a{
-    display: block;
-    font-family: 'Roboto', sans-serif;
-    float: left;
-    padding: 22px;
-}
-
-a:link, a:visited {
-    color: black;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-
-iframe{
-    padding: 32px;
-}
-
-
-/* Custom Classes */
 
 .albumart{
-    
     float: right;
     width: 150px;
     height: 150px;
@@ -148,3 +127,31 @@ iframe{
     max-width: none;
 }
 
+nav{
+    float: right;
+    text-align: center;
+    color: black;
+    vertical-align: middle;
+    top: 50%;
+    margin: 0px;
+}
+
+a{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    padding: 22px;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+iframe{
+    padding: 32px;
+}
